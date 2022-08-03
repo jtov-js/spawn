@@ -1,12 +1,4 @@
-#define _GNU_SOURCE
-
-#include <caml/mlvalues.h>
-#include <caml/memory.h>
-#include <caml/alloc.h>
-#include <caml/unixsupport.h>
-#include <caml/fail.h>
-
-#include <errno.h>
+#include "common.h"
 
 #define CAML_INTERNALS
 /* for [caml_convert_signal_number] */
